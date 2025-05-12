@@ -1,9 +1,9 @@
 ## Neovim Config
----
+
 Your Welcome!
 Hii, it's my config of neovim, so enjoy!!
 
----
+
 ## For Cloning
 
 ```
