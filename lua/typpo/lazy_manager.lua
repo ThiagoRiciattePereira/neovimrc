@@ -92,6 +92,11 @@ local plugins = {
     {
         'mbbill/undotree'
     },
+
+    {
+        'akinsho/toggleterm.nvim', version = "*", config = true
+    },
+
 }
 
 lazy.setup(plugins)
