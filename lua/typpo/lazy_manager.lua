@@ -11,20 +11,6 @@ local plugins = {
     },
 
     {
-        "nvim-neo-tree/neo-tree.nvim",
-        branch = "v3.x",
-        dependencies = {
-            "nvim-lua/plenary.nvim",
-            "nvim-tree/nvim-web-devicons", 
-            "MunifTanjim/nui.nvim",
-        },
-        lazy = false, 
-        opts = {
-            
-        },
-    },
-    
-    {
         'nvim-telescope/telescope.nvim', tag = '0.1.8',
         -- or                              , branch = '0.1.x',
         dependencies = { 'nvim-lua/plenary.nvim' }
@@ -53,7 +39,7 @@ local plugins = {
             'saadparwaiz1/cmp_luasnip'
         },
     },
-    
+
     {
         'mason-org/mason.nvim',
         dependencies = {
@@ -95,6 +81,17 @@ local plugins = {
 
     {
         'akinsho/toggleterm.nvim', version = "*", config = true
+    },
+
+    {
+        'stevearc/oil.nvim',
+        ---@module 'oil'
+        ---@type oil.SetupOpts
+        opts = {},
+        dependencies = {
+            "echasnovski/mini.icons",  
+        },
+        lazy = false,
     },
 
 }
