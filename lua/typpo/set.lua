@@ -19,3 +19,5 @@ vim.opt.termguicolors = true
 vim.opt.updatetime = 50
 
 vim.opt.fillchars:append({ eob = " " })
+
+vim.opt.guicursor = ""
